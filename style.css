@@ -1,0 +1,74 @@
+* {
+    margin: auto;
+    padding: 0;
+    max-width: 1300px;
+    
+}
+h1 {
+    margin: 30px auto;
+    font-weight: 500;
+}
+h3 {
+    font-weight: 500;
+    background-color: white;
+    margin: 30px auto;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+h1:after{
+    content: "\00d7";
+    float: right;
+    
+}
+
+a {
+    float: right;
+    margin: 30px auto;
+    padding-right: 20px;
+}
+.white {
+    background-color: white !important;
+}
+
+form {
+    border-top: 1px solid black;
+    padding-left: 30px;
+    font-weight: 150;
+    border-bottom: 1px solid black;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 17px;
+    margin: 5px;
+    min-width: 300px;
+    min-height: 30px;
+    padding-left: 10px;
+}
+
+body {
+    background-color: rgb(219, 218, 218);
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+button {
+    background-color: #2f2f36;
+    color: white;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px solid #2f2f36;
+    border: 2px solid #2f2f36;
+    margin-bottom: 50px;
+}
+
+a:any-link {
+    color: #0eede6;
+}

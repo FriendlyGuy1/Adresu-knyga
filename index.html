@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+   <header>
+       <h1>Adresų knyga</h1>
+   </header>
+   <div class="white">
+    <h3>Sukurti Nauja Adresą</h3>
+    <a href="#" class="white">&lt Grįžti į adresų sarašą</a>
+   
+   <form>
+    <div class="gavejas">
+        <label for="name">Gavėjas:</label>
+        <input type="text" name="name" id="name" required placeholder="Pvz. Vardas ar puslapis.lt">
+    </div>
+    <div class="imone">
+        <label for="company">Įmonė:</label>
+        <input type="text" name="company" id="company" required placeholder="įrašykite įmonės pavadinimą">
+    </div>
+    <div class="salis">
+        <label for="country">Šalis:</label>
+        <input type="text" name="country" id="country" required placeholder="Pvz. Lietuva">
+    </div>
+    <div class="city">
+        <label for="city">Miestas:</label>
+        <input type="text" name="city" id="city" required placeholder="įrašykite miesto pavadinimą">
+    </div>
+    <div class="address">
+        <label for="address">Gatvė:</label>
+        <input type="text" name="address" id="address" required placeholder="įrašykite gatvę">
+    </div>
+    <div class="house_nr">
+        <label for="house_nr">Namo nr:</label>
+        <input type="number" name="house_nr" id="house_nr" required placeholder="įrašykite namo nr.">
+    </div>
+    <div class="door_nr">
+        <label for="door_nr">Buto nr:</label>
+        <input type="number" name="door_nr" id="door_nr" required placeholder="įrašykite buto nr.">
+    </div>
+    <div class="postal" class="txt">
+        <label for="postal">Pašto kodas:</label>
+        <input type="number" name="postal" id="postal" required placeholder="įrašykite pašto kodą">
+    </div>
+    <div class="phone">
+        <label for="phone">Gavėjo mob tėl.:</label>
+        <input type="tel" name="phone" id="phone" required value="+3706">
+    </div>
+    <div class="email">
+        <label for="email">El. paštas:</label>
+        <input type="email" name="email" id="email" required placeholder="Pvz. vardas.pavarde@pastas.lt">
+    </div>
+    <div class="catalog">
+        <label for="catalog">Katalogas:</label>
+        <input type="text" name="catalog" id="catalog" required placeholder="Pasirinkite katalogus">
+    </div>
+   </form>
+
+<footer>
+    <button type="button" >Saugoti</button>
+</footer>
+
+</body>
+</html>
